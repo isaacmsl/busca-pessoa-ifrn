@@ -1,0 +1,2 @@
+- [x] Buscar aluno por nome
+- [x] Buscar professor por nome
