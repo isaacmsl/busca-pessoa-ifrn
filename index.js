@@ -39,8 +39,12 @@ function listarRecords(records) {
     listRecords.innerHTML = ''
     records.forEach(record => {
         const li = document.createElement('li')
+        const img = document.createElement('img')
         li.innerHTML = record.nome
+        img.src = "https://suap.ifrn.edu.br" + record.url_foto_75x100
+        
 
         listRecords.appendChild(li)
+        listRecords.appendChild(img)
     })
 }
