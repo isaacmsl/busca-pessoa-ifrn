@@ -42,9 +42,8 @@ function listarRecords(records) {
         const img = document.createElement('img')
         li.innerHTML = record.nome
         img.src = "https://suap.ifrn.edu.br" + record.url_foto_75x100
-        
 
+        li.appendChild(img)
         listRecords.appendChild(li)
-        listRecords.appendChild(img)
     })
 }
